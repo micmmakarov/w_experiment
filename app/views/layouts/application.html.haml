@@ -1,0 +1,13 @@
+%html
+  %head
+    %title StartupStory.ru - истории фаундеров стартапов и экспертов
+    %meta{:content => "Видеоинтервью с CEO стартапов из Кремниевой долины", :name => "description"}/
+    = stylesheet_link_tag    "application", :media => "all"
+    %script{:src => "http://www.google.com/jsapi", :type => "text/javascript"}
+    = javascript_include_tag "application"
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    = csrf_meta_tags
+  %body
+    =yield
+    //http://www.youtube.com/watch?v=408QtE7fUJs&feature=g-all-c
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "http://www.youtube.com/embed/408QtE7fUJs?autoplay=1", :width => "560"}    //#video{'data-video' => '408QtE7fUJs'}

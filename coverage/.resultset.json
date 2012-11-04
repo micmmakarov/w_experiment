@@ -1,0 +1,26 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/michael/rails/w_generator/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/michael/rails/w_generator/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/michael/rails/w_generator/app/helpers/home_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/michael/rails/w_generator/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1352044875
+  }
+}
